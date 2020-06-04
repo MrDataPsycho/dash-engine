@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DAT App Gallery</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body
+    style="background: url({{ url_for('static', filename='img/black-neuron.jpg') }});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;"
+  >
+     <header >
+      <div class="logo-container">
+        <a class="logo" href="#">Dash Engine</a>
+      </div>
+      <nav>
+        <ul class="nav-link">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="cta"> <button type="button" name="button">Contact</button></a>
+    </header>
+
+    <section class="top-container zone zone-hover">
+      <div class="top-text">
+        <h1><\ Analytics Simplified /></h1>
+      </div>
+    </section>
+    <!-- gallery -->
+    <section class="gallery-head zone zone-hover">
+      <div class="head">
+        <h1> <strong>App Gallery</strong> </h1>
+      </div>
+    </section>
+    <section class="gallery-content">
+
+    <section class="grid-wrapper">
+      {% for each_app in app_data %}
+        <div class="box zone zone-hover">
+          <div class="box-header">
+            <h2 class="box-title">{{ each_app['name']}}</h2>
+            <p>{{ each_app['desc'] }}</p>
+            <hr style="margin: 10px;">
+            <p>Platform Support: <br> {{ each_app['support'] }}</p>
+          </div>
+          <div class="box-feature">
+            <p>Features:</p>
+            <hr style="margin: 10px;">
+            <ul class="box-list">
+              {% for feature in each_app['features'] %}
+                <li>{{ feature }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="box-button">
+            <a href="{{ url_for(each_app['route']) }}"><button type="button" name="button">Explore The App</button></a>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+
+    </section>
+    <footer>
+      <p>Socialbakers, DAT &copy; 2020</p>
+    </footer>
+  </body>
+</html>
