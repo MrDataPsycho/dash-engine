@@ -56,7 +56,7 @@ same app can be fund in the `dash/application/stocktoday.py` file.
 
 ## How Run the App
 You can clone the repository Install all the requirements in a virtual environment 
-and run the code in the `helper.sh` fine to initiate the development server locally. 
+and run the code in the `helper.sh` file to initiate the development server locally. 
 To run in the production grade server have a look on the `Procfile`.
 
 ## Ideal Way to Write Apps
