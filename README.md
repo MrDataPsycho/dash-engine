@@ -24,6 +24,8 @@ we are going to have lot of independent single page apps and we need separate se
 for each app. Then we went through numerous examples but none of them had perfect 
 solutions. But combining all of those technique we were able to build a platform which
 can serve our needs. We have used flask application factory design to build out app.
+
+
 *Usually people are afraid of using company backed application; that's why I am open
 sourcing it with MIT license and going to maintain it personally with some other
 interested maintainer who helped me to build the app; so do not hesitate to use it.*
