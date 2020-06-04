@@ -79,7 +79,7 @@ include them. We are not able to help if you generate some bug on an windows mac
 because we have tested that app on Unix and Linux Machine and we do not have access to
 any windows machine currently*
 
-#References
+## References
 We would like to mention some document we have used as helps through out the project.
 The background image is take from free website. So we would like to add the license 
 term for that image to. The background image license can be found in 
