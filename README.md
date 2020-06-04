@@ -16,7 +16,7 @@ how to deploy multiple dash apps. The other way is to purchase the dash enterpri
 using Dash Engine now we made it fairly easy to deploy dash apps in a minute.
 
 ## History
-The project is derived from a POC in Socialbakers. We were doing a lot of adhoc stuff
+The project is derived from a POC in *Socialbakers*. We were doing a lot of adhoc stuff
 for sales and marketing to generate csv reports and visuals. So we want them to have
 a self service platform, where they can change the parameters and get these kind of 
 reports without bothering the Analytics Team with such simple request. Soon we realise
