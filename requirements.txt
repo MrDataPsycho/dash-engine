@@ -15,7 +15,7 @@ filelock==3.0.12
 flake8==3.7.9
 Flask==2.2.5
 Flask-Compress==1.5.0
-future==0.18.2
+future==1.0.0
 gunicorn==22.0.0
 idna==3.7
 itsdangerous==1.1.0
